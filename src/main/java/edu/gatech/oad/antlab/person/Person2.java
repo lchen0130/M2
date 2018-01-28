@@ -7,6 +7,7 @@ import java.util.Random;
  *  modified string
  *
  * @author Bob
+ * @author Leo
  * @version 1.1
  */
 public class Person2 {
