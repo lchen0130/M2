@@ -26,7 +26,7 @@ public class Person3 {
 	 *
 	 * @param input the varying string
 	 * @return the string representing the 
-	 *         object
+	 *         objectgigi
 	 */
 	public String toString(String input) {
 	  return name + calc(input);
@@ -43,6 +43,12 @@ public class Person3 {
 	 */
 	private String calc(String input) {
 	  //Person 3 put your implementation here
-	  return null;
+        String hold = "";
+        
+        for (int i = 0; i < input.length(); i++) {
+            hold = hold + input.charAt(input.length() - i - 1);
+        }
+        
+	  return hold;
 	}
 }
