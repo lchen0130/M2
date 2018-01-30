@@ -3,10 +3,10 @@ package edu.gatech.oad.antlab.person;
 /**
  *  A simple class for person 5
  *  returns their name and a
- *  modified string 
- *  
- *  @author Bob
- *  @version 1.1
+ *  modified string
+ *
+ *  @author Anthony
+ *  @version 1.2
  */
 public class Person5 {
   /** Holds the persons real name */
@@ -30,16 +30,16 @@ public class Person5 {
 	 * @return the modified string
 	 */
 	private String calc(String input) {
-	  //Person 5 put your implementation here
-	  return null;
+	  int i = 2 % input.length();
+      return input.substring(i) + input.substring(0, i);
 	}
-	
+
 	/**
 	 * Return a string rep of this object
 	 * that varies with an input string
 	 *
 	 * @param input the varying string
-	 * @return the string representing the 
+	 * @return the string representing the
 	 *         object
 	 */
 	public String toString(String input) {
